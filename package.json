@@ -1,0 +1,41 @@
+{
+  "name": "decorator-performance",
+  "version": "0.1.0",
+  "description": "A decorator (@performance) for logging out performance on decorated methods",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:test/testSettings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmartin81/decorator-performance.git"
+  },
+  "keywords": [
+    "ES2016",
+    "ES7",
+    "decorator",
+    "performance",
+    "@performance"
+  ],
+  "author": "Christian Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmartin81/decorator-performance/issues"
+  },
+  "homepage": "https://github.com/cmartin81/decorator-performance",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "babel": "^5.6.14",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-mocha": "^2.1.2",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "decorator-wrap": "^1.1.0",
+    "lodash": "^3.10.0",
+    "performance-now": "^0.2.0"
+  }
+}
